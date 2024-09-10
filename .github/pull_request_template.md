@@ -38,7 +38,7 @@
 
 ## Documentation of Changes (Price and/or Policies)
 Please provide a detailed description of the changes made and the reasons behind them in the corresponding JIRA ticket titled "Documentation of Changes." The documentation should include:
-- *Description of the Change*: A clear and concise explanation of what has been changed.
-- *Reason for the Change*: Justification for why the changes were made, including any issues that were resolved or improvements that were implemented.
-- *Impact of the Change*: Description of how the changes will affect the system and users.
-- *Logs or Screenshots*: To justify the sections of the field to consider (Policies and/or price), checklist, and provider confirmation.
+- **Description of the Change**: A clear and concise explanation of what has been changed.
+- **Reason for the Change**: Justification for why the changes were made, including any issues that were resolved or improvements that were implemented.
+- **Impact of the Change**: Description of how the changes will affect the system and users.
+- **Logs or Screenshots**: To justify the sections of the field to consider (Policies and/or price), checklist, and provider confirmation.
