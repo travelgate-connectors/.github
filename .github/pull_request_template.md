@@ -1,7 +1,7 @@
 # Connectors Pull Request
 
 ## Policy Fields
-- [ ] Review the provider's documentation to confirm its accuracy and currency
+- [ ] Review the provider's documentation to confirm its format and currency
 - [ ] Ensure that the most recent version of the provider's documentation is being utilized
 - [ ] Verify that all modifications comply with internal policies and procedures
 - [ ] Examine the provider's documentation to confirm that the HoursBefore field is correctly configured and up-to-date
@@ -12,7 +12,6 @@
 - [ ] Review the payment types (MerchantPay, LaterPay, CardBookingPay, CardCheckInPay, PayX) correctly configured and documented
 - [ ] Ensure that the changes do not adversely affect other cases
 - [ ] Ensure that the changes do not adversely affect other providers on the platform
-- [ ] Ensure that the changes do not adversely affect other services or system components
 
 ## Price Fields
 - [ ] Review the provider's documentation to ensure the currency code (currency) is correct and up-to-date
@@ -22,19 +21,16 @@
 - [ ] Ensure that the minimum selling price (minimumSellingPrice) is correctly established and documented
 - [ ] Review that all modifications are aligned with internal policies and procedures
 - [ ] Validate that the changes comply with applicable compliance requirements and regulations
-- [ ] Ensure the changes do not negatively impact other services or system components
 
 ### Checklist
 - [ ] Perform unit tests (integration test specific for the case not the normal unittest) to verify that the changes do not introduce errors
 - [ ] Perform integration tests to ensure that the changes work correctly with other system components
 - [ ] Consult with the provider to obtain a test environment or credentials to perform a booking flow and verify with the provider that it is correct
-- [ ] Inform the providers about the proposed changes and obtain their feedback
 - [ ] Document all changes made and the reasons behind them
 
 ### Provider Confirmation
-- [ ] Confirm that the created or modified policies/prices correctly inform the client
-- [ ] Confirm that the policies/prices adequately interpret the information provided by the provider
-- [ ] In case of doubts or lack of information, notify the corresponding team to make them aware of the situation, especially if the code needs to be uploaded to live ( If the provider insists on proceeding despite the uncertainties, it must be clearly communicated that the provider will be responsible for any issues or problems that arise)
+- [ ] Notify the corresponding team to make them aware of the situation, especially if the code needs to be uploaded to live
+- [ ] Communicate the modifications to the provider using [this mail template](https://travelgatex.atlassian.net/wiki/x/AQBLtQ) and await its feedback
 
 ## Documentation of Changes (Price and/or Policies)
 Please provide a detailed description of the changes made and the reasons behind them in the corresponding JIRA ticket titled "Documentation of Changes." The documentation should include:
