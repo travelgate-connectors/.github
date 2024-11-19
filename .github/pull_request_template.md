@@ -26,9 +26,8 @@
 - [ ] Perform unit tests (integration test specific for the case not the normal unittest) to verify that the changes do not introduce errors
 - [ ] Perform integration tests to ensure that the changes work correctly with other system components
 - [ ] Consult with the provider to obtain a test environment or credentials to perform a booking flow and verify with the provider that it is correct
-- [ ] Document all changes made and the reasons behind them
 
-### Provider Confirmation
+### Internal and Provider Communication
 - [ ] Notify the corresponding team to make them aware of the situation, especially if the code needs to be uploaded to live
 - [ ] Communicate the modifications to the provider using [this mail template](https://travelgatex.atlassian.net/wiki/x/AQBLtQ) and await its feedback
 
