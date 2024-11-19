@@ -10,8 +10,7 @@
 - [ ] Confirm that the Penalty field and its attributes (type, currency, paymentType) are correctly interpreted and documented
 - [ ] Ensure that the penalty types (Nights, Percentage, Amount) are correctly applied and documented
 - [ ] Review the payment types (MerchantPay, LaterPay, CardBookingPay, CardCheckInPay, PayX) correctly configured and documented
-- [ ] Ensure that the changes do not adversely affect other cases
-- [ ] Ensure that the changes do not adversely affect other providers on the platform
+- [ ] Ensure that the changes do not adversely affect other cases or other providers on the platform
 
 ## Price Fields
 - [ ] Review the provider's documentation to ensure the currency code (currency) is correct and up-to-date
@@ -19,8 +18,8 @@
 - [ ] Check that the binding field is correctly configured according to the provider's policies
 - [ ] Validate that the commission (commission) is correctly interpreted and documented
 - [ ] Ensure that the minimum selling price (minimumSellingPrice) is correctly established and documented
-- [ ] Review that all modifications are aligned with internal policies and procedures
-- [ ] Validate that the changes comply with applicable compliance requirements and regulations
+- [ ] Ensure that the changes do not adversely affect other cases or other providers on the platform
+
 
 ### Checklist
 - [ ] Perform unit tests (integration test specific for the case not the normal unittest) to verify that the changes do not introduce errors
