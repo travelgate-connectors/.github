@@ -14,5 +14,6 @@
 - [ ] I have confirmed that cancellation policies still work correctly
 - [ ] I have confirmed that my changes do not break the booking flow
 - [ ] I have informed all relevant stakeholders about the change
-- [ ] I have reviewed and corrected all benesferatu messages
+- [ ] I have reviewed and corrected all benesferatu and Copilot messages
+- [ ] I have updated the README with the provider's context if needed
 - [ ] **(Only TIER 2) I have confirmation that my changes are correct and can be deployed to production (attach screenshot)**
